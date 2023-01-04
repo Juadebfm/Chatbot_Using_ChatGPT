@@ -117,7 +117,7 @@ body {
 form {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   padding: 10px;
   background: #ffffff;
 
@@ -149,4 +149,14 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+.copyright {
+  text-align: right;
+  color: #dcdcdc;
+  margin-bottom: 0.5rem;
+}
+
+.copyright a {
+  color: inherit;
 }
